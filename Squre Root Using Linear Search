@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter the Number:"<<endl;
+    cin>>n;
+    for(int i=1;i<n;++i){
+        if(i*i==n){
+            cout<<"Number is:";
+            cout<<i<<endl;
+            break;
+        }
+    }
+    return 0;
+}
